@@ -1,0 +1,33 @@
+/** BASE RULE **/
+/** can use  descendent selector, avoid !important 
+or a child selector, along with any pseudo-classes.
+ It doesn’t include any class or ID selectors. **/
+
+ h1, h2, h3, h4 ,h5{
+    font-family: $font-news;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Georgia;
+  
+    line-height: 150%;
+}
+
+::selection {
+  background:#89CFF0; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #89CFF0; /* Gecko Browsers */
+}
+
+a{
+color:$blue1;
+
+	}
+a:hover{
+	color:$blue1;
+	
+}

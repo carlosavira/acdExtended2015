@@ -1,0 +1,56 @@
+
+/** LAYOUT RULE **/
+/**The major components are referred to as Layout styles. **/
+
+footer {
+    background-color: $blue1;
+    padding: 50px 0 40px 0;
+    h4, p {
+        color: #fff;
+    }
+    }
+
+header {
+     
+    background: $blue1;
+    min-height: 130px;
+    h1 {
+        color: #fff;
+        padding-top: 35px;
+        font-family: 'Dancing Script';
+        font-size: 4rem;
+    }
+    .logo img {
+        width: 160px;
+        height: 140px;
+        float: left;
+    }
+}
+
+.top-bar {
+    background: $black1;
+}
+.top-bar {
+    li {
+        text-transform: uppercase;
+    }
+}
+.top-bar-section li a:not(.button) {
+    background: $black1 !important;
+}
+.top-bar-section li a:not(.button):hover {
+    background: $black2 !important;
+}
+.top-bar-section ul li.active > a {
+    background: $blue1 !important;
+}
+.top-bar-section ul li.active > a:hover {
+    background: $blue2 !important;
+}
+.navigation-section {
+    background-color: $black1;
+}
+.contain-to-grid {
+    background-color: $black1;
+}
+

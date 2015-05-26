@@ -1,0 +1,71 @@
+
+@media only screen and (max-width: 40em) and (orientation: portrait) {
+    div.logo h1 {
+        visibility: hidden;
+        text-indent: -9999px;
+    }
+    div.logo h1:after {
+        content: 'ACD';
+        visibility: visible;
+        float: left;
+        line-height: 45px;
+        text-indent: 0;
+        font-size:3.3rem;
+    }
+    div.logo img {
+        height: 100px;
+        width: 110px;
+        float: left;
+    }
+    header {
+        min-height: 110px;
+    }
+    ol.orbit-bullets {
+        display: none;
+    }
+}
+@media only screen and (max-width: 40em) and (orientation: landscape) {
+    div.logo h1 {
+        font-size: 1.8em;
+        line-height: 5px;
+    }
+    div.logo img {
+        height: 90px;
+        width: 100px;
+        float: left;
+    }
+    header {
+        min-height: 110px;
+    }
+    ol.orbit-bullets {
+        display: none;
+    }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) and (orientation: landscape) {
+    div.logo h1 {
+        font-size: 3em;
+        line-height: 35px;
+    }
+    div.logo img {
+        height: 120px;
+        width: 130px;
+        float: left;
+    }
+    header {
+        min-height: 110px;
+    }
+}
+@media only screen and (min-device-width: 40.063em) and (max-width: 64em) and (orientation: portrait) {
+    div.logo h1 {
+        font-size: 3em;
+        line-height: 25px;
+    }
+    div.logo img {
+        height: 100px;
+        width: 110px;
+        float: left;
+    }
+    header {
+        min-height: 110px;
+    }
+}

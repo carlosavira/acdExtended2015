@@ -1,0 +1,387 @@
+
+/** MODULE RULE **/
+/**Meat of the Page, modules sit inside Layout components. Avoid ID. Avoid Element selector. **/
+
+.title {
+    font-family: $subhead;
+}
+
+.full-wdith {
+    min-width: 100%;
+}
+
+.main-section {
+    padding: 30px 0 25px 0;
+}
+
+.copyright-section {
+    background-color: $black1;
+    color: $white1;
+    padding: 25px 0 0 0;
+}
+
+
+
+.example-orbit img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.overlay-container {
+    position: relative;
+    /* <-- Set as the reference for the positioned overlay */
+    
+    padding: 0 0 13px 0;
+}
+
+.overlay-container .overlay {
+    position: absolute;    /* <-- Remove the overlay from normal flow         */
+    
+    bottom: 0;    /* <-- Keep the overlay at the bottom of the box   */
+    
+    left: 0;    /* <-- Set left and right properties to 0          */
+    
+    right: 0;    /*     In order to expand the overlay horizontally */
+    
+    padding: 0.15rem 0.7rem 0.7rem 0.7rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+ .arrow li {
+    margin-bottom: 10px;
+    color: $blue2;
+}
+
+.arrow li:before {
+    font-family: "foundation-icons";
+    content: "\f198";
+    margin: 0 5px 0 -15px;
+    color: $blue1;
+}
+.arrow li {
+    font-size: 0.9em;
+}
+
+ .arrow li {
+    margin-bottom: 10px;
+    color: $blue2;
+}
+
+.arrow li:before {
+    font-family: "foundation-icons";
+    content: "\f198";
+    margin: 0 5px 0 -15px;
+    color: $blue1;
+}
+.arrow li {
+    font-size: 0.9em;
+}
+
+
+
+
+
+.date {
+    background: #fcfcfc;
+    font-family: $subhead;
+    font-weight: bold;
+    color: $blue2;
+}
+
+
+
+
+.vcard {
+    display: inline-block;
+    margin: 0 0 1.25rem 0;
+    border: none;
+    padding: 0px;
+    line-height: 1.3em;
+}
+.vcard li {
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+.contact h4 {
+    color: $blue1;
+    font-size: 1.3em;
+}
+.contact-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+}
+
+
+.dotted-link{
+  
+    a{
+    color: $black2;
+    border-bottom: dotted 1px $black2;
+    }  
+
+    a:hover{
+    color:$black-hover;
+    }
+
+
+    li:before {
+      color: $black2;
+    }
+
+     li:hover:before {
+      color: $black-hover;
+    }
+   
+
+
+
+   
+   
+
+} 
+
+
+.breadcrumbs {
+  display: block;
+  padding: 0.5625rem 0.875rem 0.5625rem;
+  overflow: hidden;
+  margin-left: 0;
+  list-style: none;
+  border:none;
+  background-color:none;
+  background:none;
+ }
+
+ .B_crumbBox {
+  display: block;
+  padding: 0.5625rem 0.875rem 0.5625rem;
+  overflow: hidden;
+  margin-left: 0;
+  list-style: none;
+  border:none;
+  background-color:none;
+  background:none;
+ }
+
+ul.B_crumbBox li {
+  display: inline;
+  padding-left: 12px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+ul.B_crumbBox {
+  list-style: none;
+  margin: 19px 0 0 -10px;
+}
+
+.stripe{
+    background-image:url('../images/stripe.png');
+    background-color:orange;
+    width:100%;
+    height:10px;
+    position:absolute;
+}
+
+
+/*overwrite mxcalendar*/
+#calbody, #calbodylist, #mxccategories {
+ 
+  font-size: 16px; 
+  line-height: 20px; 
+  display: block; 
+}
+
+
+
+
+/*mail chimp start*/
+
+
+
+/** page structure **/
+#w {
+  display: block;
+  /*width: 250px;*/
+  margin: 0 auto;
+ /* padding-top: 30px;
+  padding-bottom: 45px;*/
+background-color: #006F93;
+padding:18px;
+}
+
+
+
+
+/** Custom Styles **/
+#notification_container {
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+#notification_container .alert {
+  display: block;
+  width: 100%;
+  padding: 11px 20px;
+  border: 1px solid #cfc07e;
+  /*-webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;*/
+  color: #515151;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-weight: bold;
+  /*text-shadow: 1px 1px 0 rgba(255,255,255,0.75);*/
+  background-color: #e3cb77;
+/*  background-image: -webkit-gradient(linear, left top, left bottom, from(#e3cb77), to(#f4e4a8));
+  background-image: -webkit-linear-gradient(top, #e3cb77, #f4e4a8);
+  background-image: -moz-linear-gradient(top, #e3cb77, #f4e4a8);
+  background-image: -ms-linear-gradient(top, #e3cb77, #f4e4a8);
+  background-image: -o-linear-gradient(top, #e3cb77, #f4e4a8);
+  background-image: linear-gradient(top, #e3cb77, #f4e4a8);*/
+}
+
+#notification_container .success {
+  display: block;
+  width: 100%;
+  padding: 11px 20px;
+  border: 1px solid #78aa5f;
+/*  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;*/
+  color: #515151;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-weight: bold;
+  /*text-shadow: 1px 1px 0 rgba(255,255,255,0.5);*/
+  background-color: #9ac784;
+ /* background-image: -webkit-gradient(linear, left top, left bottom, from(#9ac784), to(#aed39c));
+  background-image: -webkit-linear-gradient(top, #9ac784, #aed39c);
+  background-image: -moz-linear-gradient(top, #9ac784, #aed39c);
+  background-image: -ms-linear-gradient(top, #9ac784, #aed39c);
+  background-image: -o-linear-gradient(top, #9ac784, #aed39c);
+  background-image: linear-gradient(top, #9ac784, #aed39c);*/
+}
+
+/** MailChimp Styles **/
+#mc_embed_signup{ clear: left; font: 14px Helvetica, Arial, sans-serif; 
+  text-align: center; 
+  /*width: 350px; */
+  margin: 0 auto; 
+color:#fff;
+}
+
+/* MailChimp Form Embed Code - Slim - 08/17/2011 */
+#mc_embed_signup form {display: block; position: relative; text-align: left; padding: 10px 0 10px 3%; }
+#mc_embed_signup h3 {font-weight: bold; padding: 0; margin: 15px 0; font-size: 1.4em; color:#fff; }
+#w h3 {color: #fff; font-style: italic;}
+
+
+#w h3:before,
+#w h3:after {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 17%;
+  height: 10px;
+  vertical-align: middle;
+  background: #f0f0f0;
+}
+
+#w h3:before {    
+  left: -.5em;
+  margin: 0 0 0 -50%;
+}
+#w h3:after {    
+  left: .5em;
+  margin: 0 -50% 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+#mc_embed_signup input { border: 1px solid #ababab; -webkit-appearance: none; }
+#mc_embed_signup input[type=checkbox]{ -webkit-appearance: checkbox; }
+#mc_embed_signup input[type=radio]{ -webkit-appearance: radio; }
+#mc_embed_signup input:focus { border-color: #799877; }
+
+#mc_embed_signup .button {
+  display: block;
+  position: relative;
+  background-color: #00526C;
+  padding: 0;
+  margin: 0 auto;
+  border: 0 none;
+  border-bottom: #003445 3px solid;
+  /*border-radius: 6px;*/
+  color: #fff; 
+  cursor: pointer;
+  font-size: 14px;
+  width: 260px;
+  height: 40px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+}
+#mc_embed_signup .button:hover { background-color:#008CBA; border-bottom-color:#003445; }
+#mc_embed_signup .button:active { top: 2px; border-bottom-width: 1px;border-bottom-color:#003445; }
+
+#mc_embed_signup .small-meta { font-size: 11px; }
+
+#mc_embed_signup .nowrap { white-space: nowrap; }     
+#mc_embed_signup .clear { clear: none; display: inline; }
+
+#mc_embed_signup label { display: block; font-size: 13px; 
+  font-style: italic;
+
+  padding-bottom: 7px; color: #fff; font-weight: bold; }
+#mc_embed_signup input.email {
+  display: block;
+  padding: 8px 4px;
+  margin: 0 4% 10px 0;
+  text-indent: 5px;
+  color: #818181;
+  font-size: 1.0em;
+  background: #f3f3f3;
+  font-weight: bold;
+  width: 100%;
+ /* -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;*/
+}
+#mc_embed_signup input.email:focus { 
+  color: #666;
+  background: #f3f3f3;
+  /*-webkit-box-shadow: 0 0 12px #80cf7b;
+  -moz-box-shadow: #80cf7b;
+  box-shadow: #80cf7b;*/
+}
+
+#mc_embed_signup div#mce-responses { float: left; top: -1.4em; padding: 0em .5em 0em .5em; overflow: hidden;
+ width:50%; margin: 0 5%; clear: both; }
+#mc_embed_signup div.response { margin: 1em 0; padding: 1em .5em .5em 0; font-weight: bold; 
+  float: left; top: -1.5em; z-index: 1; width: 50%; }
+
+#mc_embed_signup #mce-error-response { display: none; }
+#mc_embed_signup #mce-success-response { color: #529214; display: none; }
+#mc_embed_signup label.error {display: block; float: none; width: auto; margin-left: 1.05em;
+ text-align: left; padding: .5em 0; }
+
+
+/*mail chimp end*/

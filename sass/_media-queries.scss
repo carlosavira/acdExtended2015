@@ -1,0 +1,118 @@
+/* Define mobile styles */
+
+@media only screen and (max-width: 40em) { 
+  div.logo h1 {
+        visibility: hidden;
+        text-indent: -9999px;
+    }
+    div.logo h1:after {
+        content: 'ACD';
+        visibility: visible;
+        float: left;
+        line-height: 45px;
+        text-indent: 0;
+        font-size:3.3rem;
+    }
+    div.logo img {
+        height: 100px;
+        width: 110px;
+        float: left;
+    }
+    header {
+        min-height: 110px;
+    }
+    ol.orbit-bullets {
+        display: none;
+    }
+
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) {
+ div.logo h1 {
+        font-size: 2.5em;
+    line-height: 55px;
+  
+
+    }
+    div.logo img {
+        height: 90px;
+        width: 100px;
+        float: left;
+    }
+    header {
+        min-height: 110px;
+    }
+    ol.orbit-bullets {
+        display: none;
+    }
+ } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+ div.logo h1 {
+        font-size:3em;
+        line-height: 70px;
+      
+    
+    }
+    div.logo img {
+        height: 100px;
+        width: 110px;
+        float: left;
+    }
+    header {
+        min-height: 110px;
+    }
+}
+
+
+  /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) {
+div.logo h1 {
+        font-size:2.5em;
+        line-height: 60px;
+      
+    
+    }
+    div.logo img {
+        height: 100px;
+        width: 110px;
+        float: left;
+    }
+    header {
+        min-height: 110px;
+    }
+}
+
+  /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  div.logo h1 {
+        font-size: 4em;
+        line-height: 95px;
+       
+    }
+    div.logo img {
+        height: 90px;
+        width: 100px;
+        float: left;
+    }
+    header {
+        min-height: 110px;
+    }
+
+
+}
+
+  /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */

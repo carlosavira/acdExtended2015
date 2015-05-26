@@ -1,0 +1,132 @@
+
+/** MODULE RULE **/
+/**Meat of the Page, modules sit inside Layout components. Avoid ID. Avoid Element selector. **/
+
+.title {
+    font-family: $subhead;
+}
+
+.full-wdith {
+    min-width: 100%;
+}
+
+.main-section {
+    padding: 30px 0 25px 0;
+}
+
+.copyright-section {
+    background-color: $black1;
+    color: $white1;
+    padding: 25px 0 0 0;
+}
+
+
+
+.example-orbit img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.overlay-container {
+    position: relative;
+    /* <-- Set as the reference for the positioned overlay */
+    
+    padding: 0 0 13px 0;
+}
+
+.overlay-container .overlay {
+    position: absolute;    /* <-- Remove the overlay from normal flow         */
+    
+    bottom: 0;    /* <-- Keep the overlay at the bottom of the box   */
+    
+    left: 0;    /* <-- Set left and right properties to 0          */
+    
+    right: 0;    /*     In order to expand the overlay horizontally */
+    
+    padding: 0.15rem 0.7rem 0.7rem 0.7rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+ .arrow li {
+    margin-bottom: 10px;
+    color: $blue2;
+}
+
+.arrow li:before {
+    font-family: "foundation-icons";
+    content: "\f198";
+    margin: 0 5px 0 -15px;
+    color: $blue1;
+}
+.arrow li {
+    font-size: 0.9em;
+}
+
+
+.date {
+    background: #fcfcfc;
+    font-family: $subhead;
+    font-weight: bold;
+    color: $blue2;
+}
+
+
+
+
+.vcard {
+    display: inline-block;
+    margin: 0 0 1.25rem 0;
+    border: none;
+    padding: 0px;
+    line-height: 1.3em;
+}
+.vcard li {
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+.contact h4 {
+    color: $blue1;
+    font-size: 1.3em;
+}
+.contact-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+}
+
+
+.dotted-link{
+  
+    a{
+    color: $black2;
+    border-bottom: dotted 1px $black2;
+    }  
+
+    a:hover{
+    color:$black-hover;
+    }
+
+
+    li:before {
+      color: $black2;
+    }
+
+     li:hover:before {
+      color: $black-hover;
+    }
+   
+
+
+
+   
+   
+
+} 
+
+
+
+
